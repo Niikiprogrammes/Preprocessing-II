@@ -1,1 +1,14 @@
 /* LESS needs to be processed */
+img.align-left {
+    float: left;
+    margin-right: 20px;}
+    img.align-right {
+      float: right;
+      margin-left: 20px;}
+      
+    .pick{
+        align-items: stretch;
+    }
+    nav{
+        background-color: burlywood;
+    }

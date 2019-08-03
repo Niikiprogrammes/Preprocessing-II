@@ -16,23 +16,29 @@
 
 <body>
 
-  
-     
+<nav>
+<a href="box1">Home</a>
+<a href="box2">About</a>
+<a href="box3">Portfolio</a>
+<a href="box4">Contact</a>
+</nav>
+   <hr/>  
   <div class="container home">
-   
-    <section class="content-section">
+
+      <div class="img-content">
+          <p><img src="img/adventure.jpg" alt="Let's go on an adventure!" class="align-left adventure"/>
+    <section class="content-section">       
       <div class="text-content">
         <h2>Let's Go!</h2>
         <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty simple traveling fun WordPress wanderlust darn simple organized.</p> 
         <p>Expedition colorful design simple excursion blogger blogger design WordPress design, design organized website theme.</p>
       </div>
-      <div class="img-content">
-        <img src="img/adventure.jpg" alt="Let's go on an adventure!">
       </div>
     </section>
+    
     <section class="content-section inverse-content">
       <div class="img-content">
-          <img src="img/fun.jpg" class="img-fluid rounded" alt="Lets have fun!">
+         <p><img src="img/fun.jpg"alt="Lets have fun!"class="align-right fun"/>
       </div>
       <div class="text-content">
         <h2>Adventure Awaits</h2>
@@ -41,32 +47,84 @@
       </div>
      
     </section>
+    
     <section class="content-destination">
       <h2>Pick Your Destination</h2>
       <p>Expedition excursion design darn excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-      <img src="img/destination.jpg" alt="Second slide">
+      <img src="img/destination.jpg" alt="Second slide" />
     </section>
+    <hr/>
     <section class="content-pick">
-
+  
       <div class="destination">
         <h4>Fun In The Sun</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <a href="btn">Sign Me Up!</a>
       </div>
       <div class="destination">
         <h4>Mountain Excursion</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <a href="btn">Sign Me Up!</a>
       </div>
       <div class="destination">
         <h4>Island Getaway</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <a href="btn">Sign Me Up!</a>
+        
       </div>
     </section>
+    
   </div><!-- container -->
 
   <footer class="footer">
+      <section id="three">
+      <h2>Get In Touch</h2>
+      <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+      <div class="row">
+        <div class="col-8 col-12-small">
+          <form method="post" action="#">
+            <div class="row gtr-uniform gtr-50">
+              <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+              <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+              <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+            </div>
+          </form>
+          <ul class="actions">
+            <li><input type="submit" value="Send Message" /></li>
+          </ul>
+        </div>
+        <div class="col-4 col-12-small">
+          <ul class="labeled-icons">
+            <li>
+              <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+              1234 Somewhere Rd.<br />
+              Little Rock, AR 72206<br />
+              United States
+            </li>
+            <li>
+              <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+              501-555-8898
+            </li>
+            <li>
+              <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+              <a href="#">hello@untitled.tld</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-wrap " id="top_nav_wrapper">
+        <div class="accessibility-links">
+
+          <span><a href="#page-content-section" aria-label="skip to content" tabindex="0" data-redirect-id="#page-content-section" class="hide-from__screen focusable skip-content">skip to Content</a></span>
+          
+            <span><a href="#search-trip-types" aria-label="skip to buy tickets" tabindex="0" data-redirect-id="#search-trip-types" class="hide-from__screen focusable skip-ticket">skip to Buy Tickets</a></span>
+          
+          
+            <span><a href="#primary-nav" class="hide-from__screen focusable skip-navigation" aria-label="skip to Navigation" tabindex="0" data-redirect-id="#primary-nav">skip to Navigation</a></span>
+          
+        </div>
     <p>Copyright Fun Bus 2018</p>
   </footer>
 
